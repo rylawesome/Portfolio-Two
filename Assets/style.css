@@ -1,0 +1,51 @@
+.navbar {
+    background-color: #2a204a;
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    color: #07cff6;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #07cff6;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #c233b4;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    float: right;
+    margin-top: 15px
+}
+
+.nav-link {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.about-me h2 {
+    margin-top: 0px;
+    background-color: #2a204a;
+    color: #07cff6;
+}
+
+.col-sm-4 {
+    background-color: #dad9e0;
+}
+
+.col-sm-4 h3 {
+    margin-top: 0px;
+    color: #2a204a;
+}
+
+.col-sm-4 img {
+    object-fit: cover;
+    max-width: 400px;
+    max-height: 400px;
+}
