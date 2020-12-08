@@ -11,9 +11,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">    
         <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap" rel="stylesheet">  
         <!--Import bootstrap css-->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!--<script type="text/javascript" src="js/materialize.min.js"></script> -->
+        <script src="./Assets/script.js"></script>
         <link rel="stylesheet" href="./Assets/style.css"/>
         
         <title>Ryland's Portfolio</title>
@@ -32,11 +34,11 @@
             </div>
           </nav>
         <div class="container">
-            <img src="Assets\images\RJQ_pic.jpg" class="img-responsive" id="about-me" alt="Ryland Quirk">
+            <img src="Assets\images\RJQ_pic.jpg" class="img-responsive" alt="Ryland Quirk">
         </div>
         <div class="overlay">
                 <div class="about-me">
-                    <h2>About Me</h2>
+                    <h2 id="about-me">About Me</h2>
             <!--Filler text, 2 paragraphs to imitate what I imagine I'll end up putting here-->
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi non arcu risus quis varius quam. Fermentum leo vel orci porta non pulvinar neque. Proin nibh nisl condimentum id venenatis a condimentum vitae sapien. Sit amet venenatis urna cursus. Nunc sed augue lacus viverra. Erat velit scelerisque in dictum non consectetur a. In mollis nunc sed id semper risus in hendrerit. Scelerisque in dictum non consectetur. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Lacus viverra vitae congue eu consequat ac felis. Tristique risus nec feugiat in fermentum posuere urna. Donec ultrices tincidunt arcu non. Donec ultrices tincidunt arcu non sodales neque sodales. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Congue mauris rhoncus aenean vel elit.
@@ -46,20 +48,25 @@
         <div class="container">
             <div class="row" id="my-projects">
                 <div class="col-sm-4">
-                    <img src="Assets\images\Quarantini-demo.png" class="img-fluid" alt="Quarantini Demo">
+                    <img src="Assets\images\Quarantini-demo.png" id="project-1" class="img-fluid" alt="Quarantini Demo">
                     <h3>Quarantini</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                    <a href="https://rylawesome.github.io/Quarantini/" target="_blank">Working Site</a>
+                    <br>
+                    <a href="https://github.com/rylawesome/Quarantini" target="_blank">Github</a>
                   </div>
                   <div class="col-sm-4">
+                    <img src="Assets\images\password-generator.jpg" class="img-fluid" alt="Password Generator Demo">
                     <h3>Column 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                    <a href="https://rylawesome.github.io/RJQ_PasswordGenerator/" target="_blank">Working Site</a>
+                    <br>
+                    <a href="https://github.com/rylawesome/Code_Refactor_RJQ" target="_blank">Github</a>
                   </div>
                   <div class="col-sm-4">
+                    <img src="Assets\images\code-refactor.png" class="img-fluid" alt="Code Refactor Demo">
                     <h3>Column 3</h3>        
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                    <a href="https://rylawesome.github.io/Code_Refactor_RJQ/" target="_blank">Working Site</a>
+                    <br>
+                    <a href="https://github.com/rylawesome/RJQ_PasswordGenerator" target="_blank">Github</a>
                   </div>
                 </div>
               </div>

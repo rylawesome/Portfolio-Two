@@ -46,6 +46,7 @@
 
 .col-sm-4 img {
     object-fit: cover;
-    max-width: 400px;
-    max-height: 400px;
+    float: left;
+    width:  200px;
+    height: 200px;
 }
